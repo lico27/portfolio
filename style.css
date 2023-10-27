@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 20px;
+  
 }
 
 body {
@@ -18,6 +20,84 @@ h6 {
   margin: 0;
 }
 
+header {
+  border: 2px solid #273e47;
+  background-color: #273e47;
+  color: #66999b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  border: 2px solid #273e47;
+  
+}
+
+.hero-banner {
+  border: 2px solid #273e47;
+}
+
 p {
   margin: 0;
 }
+
+.page-wrapper {
+  border: 2px solid #273e47;
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-columns: 20% 80%;
+  grid-template-areas: 
+                      "about about-text" 
+                      "work cards"
+                      "contact details"
+                      ;
+}
+
+.about {
+  grid-area: about;
+  border-right: 4px solid #273e47;
+  text-align: end;
+  padding: 10px;
+}
+
+.about-text {
+  border: 2px solid #273e47;
+}
+
+.work {
+  grid-area: work;
+  border-right: 4px solid #273e47;
+  text-align: end;
+  padding: 10px;
+}
+
+.contact {
+  grid-area: contact;
+  border-right: 4px solid #273e47;
+  text-align: end;
+  padding: 10px;
+}
+
+.details{
+  border: 2px solid #273e47;
+  display: flex;
+}
+
+.cards {
+  border: 2px solid #273e47;
+  display: flex;
+  flex-direction: column;
+}
+
+.cheatsheet, .horiseon, .furniture, .jake {
+  border: 2px solid #273e47;
+}
+
+/* @media screen and (max-width: 481px) {
+  header {
+    flex-direction: column;
+  }
+} */
+
+/* 66999b b3af8f ffc482 a40e4c #273e47 */
