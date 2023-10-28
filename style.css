@@ -114,6 +114,10 @@ nav {
   width: 50%;
 }
 
+.details a:hover {
+  background-color: white;
+}
+
 .cards {
   border: 2px solid #273e47;
   display: flex;
