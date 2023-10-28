@@ -69,7 +69,7 @@ nav {
 
 .page-wrapper {
   display: grid;
-  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-rows: 2fr 2fr 1fr;
   grid-template-columns: 15% 85%;
   grid-template-areas: 
                       "about about-text" 
@@ -106,12 +106,12 @@ nav {
 }
 
 .details{
-  border: 2px solid #273e47;
   display: flex;
-  align-items: stretch;
+  align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
   margin: 20px;
+  width: 50%;
 }
 
 .cards {
@@ -131,10 +131,27 @@ nav {
   width: 100%;
 }
 
-.github, .linkedin, .website, .email, .twitter {
-  border: 2px solid #273e47;
+.github, .linkedin, .website, .twitter {
+ 
   min-width: 0;
   margin: 1px;
+}
+
+footer {
+  background-color: #273e47;
+  font-size: 12px;
+  color: #66999b;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+footer a {
+  font-size: 12px;
+  color: #66999b;
+  margin: 0px 2px;
+  
 }
 
 /* @media screen and (max-width: 481px) {
