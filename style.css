@@ -69,7 +69,7 @@ nav {
 
 .page-wrapper {
   display: grid;
-  grid-template-rows: 2fr 2fr 1fr;
+  grid-template-rows: 1fr 2fr 0.5fr;
   grid-template-columns: 15% 85%;
   grid-template-areas: 
                       "about about-text" 
@@ -128,15 +128,25 @@ nav {
 
 .cheatsheet, .horiseon, .furniture, .jake {
   border: 2px solid #273e47;
+  height: 200px;
 
 }
 
 .cheatsheet {
   width: 100%;
+  background-image: url(./images/02-portfolio-1.jpg);
+}
+
+.card-title {
+  height: 70px;
+  background-color: rgba(102, 153, 155, 0.9);
+  z-index: 100;
+  text-align: center;
+  width: fit-content;
+  padding: 0px 20px;
 }
 
 .github, .linkedin, .website, .twitter {
- 
   min-width: 0;
   margin: 1px;
 }
