@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
-  margin: 20px;
+  /* margin: 20px; */
+  color: #273e47;
   
 }
 
@@ -11,22 +12,31 @@ body {
   line-height: 1.5;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
+h1 {
+  color: #66999b;
+  font-size: 40px;
+  margin: 20px;
+}
+
+a {
+  color: #66999b;
+  font-size: 26px;
+  margin: 20px;
+  
+}
+
+a:hover {
+  color: #273e47;
+  background-color: #66999b;
 }
 
 header {
   border: 2px solid #273e47;
   background-color: #273e47;
-  color: #66999b;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 nav {
@@ -35,18 +45,14 @@ nav {
 }
 
 .hero-banner {
-  border: 2px solid #273e47;
+  margin: 20px;
 }
 
-p {
-  margin: 0;
-}
 
 .page-wrapper {
-  border: 2px solid #273e47;
   display: grid;
   grid-template-rows: 1fr 2fr 1fr;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 15% 85%;
   grid-template-areas: 
                       "about about-text" 
                       "work cards"
@@ -63,6 +69,7 @@ p {
 
 .about-text {
   border: 2px solid #273e47;
+  margin: 20px;
 }
 
 .work {
@@ -85,17 +92,24 @@ p {
   align-items: stretch;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin: 20px;
 }
 
 .cards {
   border: 2px solid #273e47;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 20px;
 }
 
 .cheatsheet, .horiseon, .furniture, .jake {
   border: 2px solid #273e47;
 
+}
+
+.cheatsheet {
+  width: 100%;
 }
 
 .github, .linkedin, .website, .email, .twitter {
