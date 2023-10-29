@@ -93,7 +93,7 @@ a:hover {
 }
 
 .about-text {
-  margin: 20px;
+  padding: 10px;
   display: flex;
 }
 
@@ -124,7 +124,7 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 20px;
+  /* margin: 20px; */
 }
 
 .cheatsheet, .horiseon, .furniture, .jake {
@@ -190,6 +190,9 @@ footer a {
   }
   #about, #work, #contact {
     font-size: small;
+  }
+  nav a {
+    font-size: 20px;
   }
 }
 
