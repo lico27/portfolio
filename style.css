@@ -70,7 +70,6 @@ a:hover {
   text-align: center;
   width: fit-content;
   padding: 0px 20px;
-
 }
 
 .page-wrapper {
@@ -189,7 +188,9 @@ footer a {
     align-items: center;
   }
   #about, #work, #contact {
-    font-size: small;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 0px;
   }
   nav a {
     font-size: 20px;
