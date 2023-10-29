@@ -29,6 +29,10 @@ a {
   
 }
 
+p {
+  margin: 20px;
+}
+
 a:hover {
   color: #273e47;
   background-color: #66999b;
@@ -95,6 +99,7 @@ nav {
 .about-text {
   border: 2px solid #273e47;
   margin: 20px;
+  display: flex;
 }
 
 .work {
