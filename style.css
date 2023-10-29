@@ -21,21 +21,8 @@ h2 {
 word-wrap: break-word;
 }
 
-a {
-  color: #66999b;
-  font-size: 26px;
-  margin: 20px;
-  
-}
-
 p {
   margin: 20px;
-}
-
-a:hover {
-  color: #273e47;
-  background-color: #66999b;
-  opacity: 0.5;
 }
 
 header {
@@ -47,9 +34,19 @@ header {
   
 }
 
-nav {
-  border: 2px solid  #273e47;
-  
+nav a {
+  color: #66999b;
+  font-size: 26px;
+  margin: 20px;
+}
+
+nav a:hover {
+  color: #273e47;
+  background-color: #66999b;
+}
+
+a:hover {
+  opacity: 0.5;
 }
 
 .hero-banner {
@@ -124,10 +121,6 @@ nav {
   width: 50%;
 }
 
-.details a:hover {
-  background-color: white;
-}
-
 .cards {
   border: 2px solid #273e47;
   display: flex;
@@ -152,8 +145,19 @@ nav {
 }
 
 .horiseon, .furniture, .jake {
-  background-image: url(./images/02-portfolio-2.jpg);
   min-width: 200px;
+}
+
+.horiseon {
+  background-image: url(./images/horiseon.jpg);
+}
+
+.furniture {
+  background-image: url(./images/furniture.png);
+}
+
+.jake {
+  background-image: url(./images/jake.png);
 }
 
 .card-title {
@@ -163,8 +167,8 @@ nav {
   text-align: center;
   width: fit-content;
   padding: 0px 20px;
-  /* position: absolute;
-  margin: 50px 0px 0px 0px; */
+  position: absolute;
+  margin: 50px 0px 0px 0px;
 }
 
 footer {
