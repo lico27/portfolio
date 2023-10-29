@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   color: #273e47;
-  
 }
 
 body {
@@ -11,6 +10,7 @@ body {
   line-height: 1.5;
 }
 
+/* Text styles */
 h1 {
   color: #66999b;
   font-size: 40px;
@@ -31,7 +31,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 nav a {
@@ -49,6 +48,7 @@ a:hover {
   opacity: 0.5;
 }
 
+/* Hero banner */
 .hero-banner {
   background-image: url(./images/hero.jpeg);
   opacity: 0.8;
@@ -60,7 +60,6 @@ a:hover {
   display: flex;
   align-items: end;
   justify-content: end;
- 
 }
 
 #subtitle {
@@ -72,6 +71,7 @@ a:hover {
   padding: 0px 20px;
 }
 
+/* Main structure */
 .page-wrapper {
   display: grid;
   grid-template-rows: 1fr 2fr 0.5fr;
@@ -119,11 +119,11 @@ a:hover {
   width: 50%;
 }
 
+/* Cards styles */
 .cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  /* margin: 20px; */
 }
 
 .cheatsheet, .horiseon, .furniture, .jake {
@@ -137,7 +137,7 @@ a:hover {
 
 .cheatsheet {
   width: 100%;
-  background-image: url(./images/02-portfolio-1.jpg);
+  background-image: url(./images/wip.jpeg);
 }
 
 .horiseon, .furniture, .jake {
@@ -165,14 +165,25 @@ a:hover {
   padding: 0px 20px;
   position: absolute;
   margin: 50px 0px 0px 0px;
+  font-weight: bold;
+  font-size: larger;
 }
 
+.card-description {
+  font-weight: normal;
+  font-size: medium;
+}
+
+/* Footer styles */
 footer {
   background-color: #273e47;
   height: 50px;
   width: 100%;
   text-align: center;
   padding: 10px;
+  font-size: 12px;
+  color: #66999b;
+  margin: 0px 2px;
 }
 
 footer a {
@@ -182,6 +193,7 @@ footer a {
   
 }
 
+/* Media queries */
 @media only screen and (max-width: 768px) {
   header, .about-text {
     flex-direction: column;
@@ -196,10 +208,3 @@ footer a {
     font-size: 20px;
   }
 }
-
-
-/* 320px — 480px: Mobile devices.
-481px — 768px: iPads, Tablets.
-769px — 1024px: Small screens, laptops.
-1025px — 1200px: Desktops, large screens.
-1201px and more — Extra large screens, TV. */
