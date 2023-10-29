@@ -140,12 +140,20 @@ nav {
 .cheatsheet, .horiseon, .furniture, .jake {
   border: 2px solid #273e47;
   height: 200px;
-
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .cheatsheet {
   width: 100%;
   background-image: url(./images/02-portfolio-1.jpg);
+
+}
+
+.horiseon, .furniture, .jake {
+  background-image: url(./images/02-portfolio-2.jpg);
+  min-width: 200px;
 }
 
 .card-title {
@@ -155,6 +163,8 @@ nav {
   text-align: center;
   width: fit-content;
   padding: 0px 20px;
+  /* position: absolute;
+  margin: 50px 0px 0px 0px; */
 }
 
 .github, .linkedin, .twitter {
@@ -184,5 +194,3 @@ footer a {
     flex-direction: column;
   }
 } */
-
-/* 66999b b3af8f ffc482 a40e4c #273e47 */
