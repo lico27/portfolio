@@ -112,7 +112,7 @@ a:hover {
 
 .details{
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: space-around;
   flex-wrap: wrap;
   margin: 20px;
